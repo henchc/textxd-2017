@@ -7,9 +7,7 @@ MAINTAINER Chris Hench <chench@berkeley.edu>
 
 # conda python packages
 RUN conda install --yes \
-      nltk \
       gensim \
-      folium \
       geopy \
       spacy \
       pandas \
@@ -19,7 +17,11 @@ RUN conda install --yes \
       scikit-learn
 
 # pip packages
-RUN pip install --no-cache-dir pyldavis
+RUN pip install --no-cache-dir pyldavis \
+      msgpack-numpy \
+      tqdm \
+      nltk \
+      folium
 
 # install spacy english model
 RUN python -m spacy download en
