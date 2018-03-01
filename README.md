@@ -1,5 +1,7 @@
 # Pre-TextXD-2017-Workshop
 
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/henchc/textxd-2017/master)
+
 ## Schedule (1pm-6pm on 11/29/2017), Dwinelle 127 (AIS), 
 
 | Time  | Topic  | Extra-Resources  |
